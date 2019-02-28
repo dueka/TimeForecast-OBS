@@ -1,0 +1,19 @@
+{
+  "name": "TimeForecast-OBS",
+  "version": "1.0.0",
+  "description": "Given an array of ( location-name , postal-code ) and show current time & weather",
+  "repository": "git@github.com:reilue/TimeForecast-OBS.git",
+  "author": "-Eu- <eulier1@gmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/node": "^11.9.5",
+    "nodemon": "^1.18.10",
+    "ts-node": "^8.0.2",
+    "typescript": "^3.3.3333"
+  },
+  "scripts": {
+    "start": "yarn run build:live",
+    "build": "tsc -p .",
+    "build:live": "nodemon --watch 'src/**/*.ts' --exec 'ts-node' src/index.ts"
+  }
+}
