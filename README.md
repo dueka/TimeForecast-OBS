@@ -4,6 +4,8 @@ Given an array of inputs (location name, postal code), return the current time a
 
 This project was for Invisible-tech
 
+Using [Open Weather API](https://openweathermap.org/)
+
 ### Usage
 
 ```bash
